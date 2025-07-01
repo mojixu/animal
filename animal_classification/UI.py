@@ -1,9 +1,3 @@
-import subprocess
-import sys
-# 自动安装requirements_extra.txt
-subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements_extra.txt"])
-
-
 import streamlit as st
 import torchvision.transforms as transforms
 from PIL import Image, ImageDraw
